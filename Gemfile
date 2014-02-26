@@ -1,0 +1,17 @@
+source 'https://rubygems.org'
+
+gem 'rake', '10.1.0'
+gem 'i18n', '0.6.5'
+gem 'activesupport', '3.2.14'
+gem 'activemodel', '3.2.14'
+gem 'activerecord', '3.2.14'
+gem 'arel', '3.0.2'
+gem 'tzinfo', '0.3.37'
+gem 'fivemat', '1.2.1'
+gem 'json', '1.8.0'
+gem 'pg', '0.16.0'
+gem 'msgpack', '0.5.5'
+gem 'shoulda-matchers', '2.3.0'
+gem 'timecop', '0.6.3'
+gem 'yard', '0.8.7'
+
