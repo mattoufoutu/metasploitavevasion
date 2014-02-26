@@ -257,7 +257,7 @@ fi
 
 # build the c file ready for compile
 echo ""
-echo '#include <stdio.h>' >> build.c
+echo '#include <stdio.h>' > build.c
 echo 'unsigned char padding[]=' >> build.c
 cat /dev/urandom | tr -dc _A-Z-a-z-0-9 | head -c$SEED > random
 sed -i 's/$/"/' random
